@@ -1,0 +1,223 @@
+
+.circular_image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    position:relative; 
+    left:25px;
+    bottom:-15px;
+   
+  }
+  .circular_image img{
+    width:100%;
+  }
+  
+.cardClass {
+  
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.2s;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  width: 250px;
+  height:230px;
+  border-radius: 10px;
+    
+  }
+  .cardClass:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+   
+    transform: scale(1.2); 
+  }
+  .containerOfCards {
+    
+    color: black;
+    margin-bottom: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    height:170px;
+    font-size: 10px;
+  }
+
+  .checked {
+      
+    color: #FF6525;
+    text-shadow: 0 0 3px #FF6525, 0 0 5px #FF6525;
+  }
+  
+   
+  
+  
+    .grid-container {
+        background-color: #0B5498;
+        padding: 6px;
+       
+      }
+      
+  .grid-container > div {
+    font-family: 'Heebo', sans-serif;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Poppins', sans-serif;
+    color:#FFF8EF;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+
+  
+  .pictureHover{
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.2s;
+    margin-bottom: 25px;
+    width: 250px;
+    height:257px;
+    
+
+  }
+  .pictureHover:hover{
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+ 
+    transform: scale(1.1); 
+  }   
+ 
+    
+.containerClass .contentDesc {
+  
+    border-radius: 5px;
+    background: #0B5498; 
+    color: #FFF8EF;
+    width: 250px;
+    height: 25px;
+    padding: -1px;
+  }
+    
+.containerClass {
+  
+    width: 20%;
+    margin: 20px 15px;
+    margin-bottom: 95px;
+    margin-left: 80px;
+  }
+
+  /************************************************************************************************/
+
+
+  @media (max-width: 500px) {
+
+  
+.circular_image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  
+  position:relative; 
+  left:25px;
+  bottom:-15px;
+ 
+}
+.circular_image img{
+  width:100%;
+}
+
+.cardClass {
+
+margin-top: 30px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.2s;
+margin-bottom: 30px;
+margin-left: 10px;
+
+width: 250px;
+height:230px;
+border-radius: 10px;
+  
+}
+.cardClass:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+ 
+  transform: scale(1.2); 
+}
+.containerOfCards {
+  
+  color: black;
+  margin-bottom: 10px;
+  font-family: 'Heebo', sans-serif;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  width: 200px;
+  height:170px;
+  font-size: 10px;
+  
+}
+
+.checked {
+    
+  color: #FF6525;
+  text-shadow: 0 0 3px #FF6525, 0 0 5px #FF6525;
+}
+
+ 
+
+
+  .grid-container {
+      background-color: #0B5498;
+      padding: 6px;
+     
+    }
+    
+.grid-container > div {
+  font-family: 'Heebo', sans-serif;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Poppins', sans-serif;
+  color:#FFF8EF;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+.pictureHover{
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.2s;
+  margin-bottom: 25px;
+  width: 250px;
+  height:257px;
+  
+
+}
+.pictureHover:hover{
+
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+
+  transform: scale(1.1); 
+}   
+
+  
+.containerClass .contentDesc {
+
+  border-radius: 5px;
+  background: #0B5498; 
+  color: #FFF8EF;
+  width: 250px;
+  height: 25px;
+  padding: -1px;
+}
+  
+.containerClass {
+
+  width: 20%;
+  margin: 20px 15px;
+  margin-bottom: 95px;
+  margin-left: 50px;
+}
+  }
